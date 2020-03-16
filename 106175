@@ -1,0 +1,129 @@
+<! DOCTYPE html>	
+<html lang="en" dir="ltr">
+
+<head>
+<title> MOISES PERSONAL WEBSITE </title> 
+</head>
+
+<style>
+	a{
+	  text-decoration: none;
+	  color: skyblue;	
+	}
+	Body{
+	background-image: url("back4.jpg");
+	background-color: indianred;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	
+		
+	img.design{
+	position: absolute;	
+	border-radius:30%;
+	width: 150px;
+	height: 150px;
+	top:50;
+	left: 50;
+	}
+	img.img1{
+	position: absolute;	
+	border-radius: 50%;
+	width: 250px;
+	height:250px;
+	top:300;
+	left: 550;
+	}
+
+	a.a1{
+	position: absolute;
+	font-size: 30;
+	color: indianred;
+	right: 270;
+	width: 100;
+	}
+	a.a2{
+	position: absolute;
+	font-size: 30;
+	color: indianred;
+	right: 150;
+	width: 100;
+	}
+	a.a3{
+	position: absolute;
+	font-size: 30;
+	color: indianred;
+	right: 50;
+	width: 100;
+	}
+	a.twitter{
+	position: absolute;
+	color: skyblue;
+	font-size: 40;
+	font-family: cursive;
+	top: 600;
+	left: 300;
+	}
+	a.facebook{
+	position: absolute;
+	color: skyblue;
+	font-size: 40;
+	font-family: cursive;
+	top: 600;
+	left: 580;
+	}
+	a.gmail{
+	position: absolute;
+	color: skyblue;
+	font-size: 40;
+	font-family: cursive;
+	top: 600;
+	left: 920;
+	}
+	
+	
+		
+	p.alright{
+	position: absolute;
+	text-align: center;
+	font-size: 20;
+	font-family:;
+	color: indianred;
+	top: 800;
+	left: 480;
+	}
+	button.button{
+	position: absolute;
+	border-radius: 20%;
+	color: black;
+	font-size: 30;
+	top: 70;
+	left:170;
+	}
+		
+</style>	
+
+<body>
+	
+	<a class="a1" href="menu.html"> Home </a> 
+	<a class="a2" href="info.html"> Info </a>
+	<a class="a3" href="contact.html"> Contact </a>
+	<a class="twitter" href="http://twitter.com"> Twitter </a>
+	<a class="facebook" href="http://facebook.com"> Facebook </a>
+	<a class="gmail" href="http://gmail.com"> GMail </a>
+
+	
+	
+	<img class="img1" src="profile.jpeg">
+
+	<img class="design" src="designer.gif">
+	
+
+	<p class="alright"> @2020 <a href="info.html"> <u> MOISES CARAMAT.</u> </a> All rights reserved. </p>
+	<button class="button"> Message Me! </button>
+	
+		
+	
+
+</body>
+</html>
